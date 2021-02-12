@@ -1,1 +1,5 @@
 # Covid-19-Time-Series-Prediction
+
+This project was done as part of my mid-term examination on Data Science course.
+<br><br> This project aims to predict COVID-19's number of cases in the next several days after the last date captured in the data. For this project, I decided to predict COVID-19's cases in the next 20 days. The dataset was taken from Kaggle. Briefly, the dataset contains a continuos (time-series) data of any COVID-19 cases happened in all around the world, either infected, recovered, or died. Along with the dataset, there are other additional features like the reported news about the people, when the "suspected" person visited or left China last time, the symptoms, etc. I didn't take into account the accuracy, but I calculated the error score on the model.
+<br> There are a lot of features involved inside the dataset with various data types. For example, I use the 'description' column to further extract the information about the cases existence and any other feature engineering process before going through modelling and predicting.
